@@ -1,0 +1,17 @@
+{
+  "name": "akhil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.coffee"
+  },
+  "dependencies": {
+    "express": "*",
+    "twitter": "*",
+    "jade": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}

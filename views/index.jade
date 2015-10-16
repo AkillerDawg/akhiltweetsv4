@@ -1,0 +1,5 @@
+extends layout
+block content
+  form(method='get', action='/tweets')
+    input(type='text', name='username', placeholder='username')
+    button(type='submit') show tweets

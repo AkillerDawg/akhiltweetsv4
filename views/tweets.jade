@@ -1,0 +1,7 @@
+extends layout
+block content
+  #map
+  script window.tweets = !{JSON.stringify(tweets)};
+  script window.username = !{JSON.stringify(username)};
+  script(src='/public/tweets.js')
+  script(async, defer, src!='https://maps.googleapis.com/maps/api/js?key=' + apiKey + '&signed_in=true&callback=init')
